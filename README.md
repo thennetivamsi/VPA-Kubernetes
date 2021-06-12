@@ -6,9 +6,9 @@
     - Deploy Metrics
     - Deploy VPA 
 # Build and Push Docker Image
-    docker build -t cloudtechmasters/application-cpu:latest .
+    docker build -t chinnareddaiah/application-cpu:latest .
     docker login
-    docker push cloudtechmasters/application-cpu:latest
+    docker push chinnareddaiah/application-cpu:latest
 # Deploy Metrics in Cluster
     kubectl apply -f ./metrics-server
 # Install Vertical Pod Autoscaler
