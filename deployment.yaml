@@ -37,7 +37,7 @@ spec:
     spec:
       containers:
       - name: application-cpu
-        image: cloudtechmasters/application-cpu:latest
+        image: chinnareddaiah/application-cpu:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
